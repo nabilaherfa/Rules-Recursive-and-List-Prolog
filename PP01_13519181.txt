@@ -1,0 +1,72 @@
+***********************
+** Nabilah Erfariani **
+**     13519181      **
+**       K01         **
+***********************
+
+/*Untuk File .txt*/
+
+Bagian 1
+*******SOAL 1********
+Suami dari Nurbaya
+Query : | ?- suami(X, nurbaya).
+X = william ?
+yes
+
+*******SOAL 2********
+Paman dari Small Faris
+Query : | ?- keponakan(smallFaris, X).
+X = jovan ? ;
+X = zunan ? ;
+X = william ?
+yes
+
+*******SOAL 3********
+Menantu dari Yoga
+Query : | ?- mertua(yoga,X).
+X = siti ?
+yes 
+
+*******SOAL 4********
+Nenek dari Small Faris
+Query1 : | ?- cucu(smallFaris,X), wanita(X).
+X = lisa ? ;
+X = asin
+yes
+
+*******SOAL 5********
+Cucu dari Padil 
+Query : | ?- cucu(X,padil).
+X = babyThajeb ?
+yes 
+
+*******SOAL 6********
+Ipar dari Siti
+Query : | ?- suami(X,siti), saudara(X,Y).
+X = farras
+Y = zunan ? ;
+
+X = farras
+Y = jovan ? 
+yes
+
+*******SOAL 7********
+Sepupu dari Baby Thajeb
+Query : | ?- sepupu(X,babyThajeb).
+X = smallFaris ?
+yes 
+
+*******SOAL 8********
+Wanita yang merupakan anak tunggal
+Query : | ?- wanita(X), anaksulung(X).
+X = nurbaya ?
+yes
+
+*******SOAL 9********
+Pria yang belum menikah
+Query : | ?- pria(X), \+menikah(X,_).
+X = jovan ? ;
+X = zunan ? ;
+X = smallFaris ? ;
+X = babyThajeb 
+yes
