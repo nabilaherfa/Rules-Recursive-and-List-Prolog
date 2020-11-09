@@ -1,6 +1,5 @@
 /* Program Palindrom */
 /* palindrom(List) : Rule digunakan untuk mengecek apakah sebuah list yaitu list palindrom atau tidak.*/
-/* Nabilah Erfariani(13519181) */
 
 palindrom([]).
 palindrom([X]).
