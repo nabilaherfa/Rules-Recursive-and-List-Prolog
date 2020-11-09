@@ -1,6 +1,4 @@
 /*Untuk File .pl*/
-/* Nabilah Erfariani */
-/* 13519181 */
 
 /* Bagian <1> */
 /* Fakta, Rule, dan Query */
