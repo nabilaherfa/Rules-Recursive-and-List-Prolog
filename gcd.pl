@@ -1,6 +1,6 @@
 /* Program GCD */
 /* gcd(A,B,X) : X adalah greatest common divisor dari A dan B. /
-/* Nabilah Erfariani(13519181) */
+
 gcd(0, X, X) :- !.
 gcd(X, 0, X) :- !.
 gcd(X, X, X) :- !.
